@@ -1,9 +1,3 @@
-
----
-
-## 📄 `lessons/lesson-05-file-handling/README.md`
-
-```markdown
 # Lesson 05 — File Handling + Error Handling
 
 ## 🎯 Goal
