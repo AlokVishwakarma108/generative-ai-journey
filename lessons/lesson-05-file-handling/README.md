@@ -46,7 +46,11 @@ with open("progress.txt", "a") as file:    # "a" = append
 | r+ | read + write |
 | rb | read binary (images, weights)|
 
-### **Note** : The with statement automatically closes the file even if an error occurs. Never use open() without with in production code.
+> **Note:** The `with` statement **automatically closes** the file,
+> even if an exception occurs inside the block. It's called a
+> *context manager*. **Always prefer `with open(...)` over
+> `open()` + manual `close()`** — the manual version leaks the
+> file if an error happens in between.
 
 ## Error Handling
 
