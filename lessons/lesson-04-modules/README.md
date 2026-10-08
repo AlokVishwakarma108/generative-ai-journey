@@ -1,9 +1,3 @@
-
----
-
-## 📄 `lessons/lesson-04-modules/README.md`
-
-```markdown
 # Lesson 04 — Modules
 
 ## 🎯 Goal
