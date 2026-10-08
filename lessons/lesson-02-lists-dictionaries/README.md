@@ -1,9 +1,3 @@
-
----
-
-## 📄 `lessons/lesson-02-lists-dictionaries/README.md`
-
-```markdown
 # Lesson 02 — Lists, Dictionaries & Control Flow
 
 ## 🎯 Goal
