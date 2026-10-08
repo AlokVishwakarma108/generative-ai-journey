@@ -23,20 +23,20 @@ with open("progress.txt", "w") as file:    # "w" = overwrite
     file.write("Completed Lesson 5\n")
 ```
 
-### 2.1. Reading a file
+### 3. Reading a file
 ```python
 with open("progress.txt", "r") as file:    # "r" = read
     content = file.read()
     print(content)
 ```
 
-### 2.2. Appending to a file
+### 4. Appending to a file
 ```python
 with open("progress.txt", "a") as file:    # "a" = append
     file.write("Completed Lesson 6\n")
 ```
 
-### 3. File Modes cheat sheet
+### 5. File Modes cheat sheet
 
 | Mode | Meaning |
 |------|---------|
@@ -54,5 +54,16 @@ with open("progress.txt", "a") as file:    # "a" = append
 
 ## Error Handling
 
+### 6. Error handling with try-except
+
+```python
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ValueError:
+    print("Please enter a valid number!")
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+```
 ### Built-in Exception types --
 
