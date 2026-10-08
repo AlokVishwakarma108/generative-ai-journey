@@ -1,9 +1,3 @@
-
----
-
-## 📄 `lessons/lesson-03-functions/README.md`
-
-```markdown
 # Lesson 03 — Functions
 
 ## 🎯 Goal
