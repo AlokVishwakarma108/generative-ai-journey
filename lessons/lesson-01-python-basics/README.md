@@ -1,39 +1,40 @@
-# Lesson 01: Python Basics
+# Lesson 01 — Python Basics for AI
 
-**Student:** Alok Vishwakarma  
-**Status:** ✅ Completed
+## 🎯 Goal
+Set up your Python environment and understand the building blocks of Python
+that you will use every day as a GenAI Developer.
 
----
-
-## Lesson Goal
 By the end of this lesson you will:
-- Understand variables and data types
-- Use basic operators
-- Work with f-strings
-- Write and run simple Python programs
+- Have a working Python + Jupyter/Colab environment
+- Understand variables, data types, and basic operations
+- Write and run your first AI-related program
 
----
+## 🧠 Key Concepts
 
-## Key Concepts
+### 1. Data Types (the foundation)
+| Type    | Example        | Where you'll see it in AI              |
+|---------|----------------|----------------------------------------|
+| `str`   | `"hello"`      | Prompts, tokens, labels                |
+| `int`   | `25`           | Epochs, steps, token counts            |
+| `float` | `5.9`          | Loss, learning rate, accuracy          |
+| `bool`  | `True`         | Flags, conditions                      |
+| `list`  | `[1, 2, 3]`    | Datasets, embeddings, batches          |
 
+### 2. Operators
+| Operator | Meaning          | Example     |
+|----------|------------------|-------------|
+| `+`      | addition         | `10 + 3`    |
+| `-`      | subtraction      | `10 - 3`    |
+| `*`      | multiplication   | `10 * 3`    |
+| `/`      | division         | `10 / 3`    |
+| `//`     | floor division   | `10 // 3` → 3 |
+| `%`      | remainder        | `10 % 3` → 1  |
+| `**`     | power            | `10 ** 3` → 1000 |
+
+### 3. Strings
 ```python
-# Variables & Data Types
-name = "Alok Vishwakarma"     # string
-age = 21                      # integer
-height = 5.9                  # float
-is_learning = True            # boolean
-
-# Basic Operators
-a = 10
-b = 3
-
-print(a + b)    # Addition
-print(a - b)    # Subtraction
-print(a * b)    # Multiplication
-print(a / b)    # Division
-print(a // b)   # Floor Division
-print(a % b)    # Modulus
-print(a ** b)   # Power
-
-# f-strings
-print(f"Hello {name}! Keep learning GenAI.")
+message = "I will become a Generative AI Developer"
+message.upper()       # uppercase
+message.lower()       # lowercase
+len(message)          # length
+message[0:5]          # slice → "I wil"
