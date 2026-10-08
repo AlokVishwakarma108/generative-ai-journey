@@ -21,22 +21,25 @@ By the end of this lesson you will:
 with open("progress.txt", "w") as file:    # "w" = overwrite
     file.write("Alok is learning Generative AI\n")
     file.write("Completed Lesson 5\n")
+```
 
 ### 2.1. Reading a file
 ```python
 with open("progress.txt", "r") as file:    # "r" = read
     content = file.read()
     print(content)
+```
 
 ### 2.2. Appending to a file
 ```python
 with open("progress.txt", "a") as file:    # "a" = append
     file.write("Completed Lesson 6\n")
-
+```
 
 ### 3. File Modes cheat sheet
 
 | Mode | Meaning |
+|------|---------|
 | r | read (default, error if missing) |
 | w | write (overwrites file) |
 | a | append (adds to end) |
