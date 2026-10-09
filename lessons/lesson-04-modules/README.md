@@ -19,8 +19,26 @@ import into other files. Python ships with hundreds of standard modules.
 import math                        # full module
 print(math.sqrt(16))
 
-from datetime import datetime      # specific name
+from datetime import datetime      # specific name or Improt Directly Function from Modules
 print(datetime.now())
 
 import random as rnd               # alias
 print(rnd.randint(1, 10))
+```
+
+### 3. Some Common *Maths* Function
+| Function | Use | Syntax |
+|---|---|---|
+| pi | To get the value of pi | `print(math.pi)` |
+| sqrt(a) | Calculate the Square Root of a value | `math.sqrt(16)` |
+| pow(a, b) | Calculate the power value a^b | `math.pow(2,3)` |
+| ceil(float) | Get Next Heighest Integer | `math.ceil(4.2)` |
+| floor(4.8) | Get Previous Lowest Integer | `math.floor(4.8)` |
+| factorial(a) | Calculate factorial | `math.factorial(5)` |
+
+### 4. Some Common *Random* Module Functions
+| Function | Use | Syntax |
+|---|---|---|
+| randint(a,b) | To Choose Random value from `a` to `b` | `random.randint(1,10)` |
+| random() | Generate random value int, floot | `random.random()` |
+| choice(list_name) | Select one value from a list | `random.choice(frutes)` |

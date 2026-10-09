@@ -52,6 +52,8 @@ with open("progress.txt", "a") as file:    # "a" = append
 > `open()` + manual `close()`** — the manual version leaks the
 > file if an error happens in between.
 
+<hr style="border: 1px solid black;">
+
 ## Error Handling
 
 ### 6. Error handling with try-except
@@ -65,5 +67,34 @@ except ValueError:
 except ZeroDivisionError:
     print("Cannot divide by zero!")
 ```
-### Built-in Exception types --
+### Built-in Exception types
+| Exceptions | When Use |
+|------------|----------|
+| TypeError | Possibility of Invalid input |
+| NameError | Variable not Exist |
+| IndexError | Invalid index of a list |
+| KeyError | Missing Dictionary main access key |
+| FileNotFoundError | File Not Exist |
+| ValueError | Wrong format of the value |
+| ZeroDivisionError | In Division Denominator is zero |
+
+## Run And Analyse
+```python
+def save_progress(name, lesson):
+    with open("my_progress.txt", "a") as file:   # "a" means append
+        file.write(f"{name} completed Lesson {lesson}\n")
+    print("Progress saved successfully!")
+
+def show_progress():
+    try:
+        with open("my_progress.txt", "r") as file:
+            print("\n--- Your Progress ---")
+            print(file.read())
+    except FileNotFoundError:
+        print("No progress file found yet.")
+
+# Test
+save_progress("Alok Vishwakarma", 5)
+show_progress()
+```
 
