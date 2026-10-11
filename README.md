@@ -15,12 +15,12 @@ This repository contains my complete step-by-step learning journey to become a *
 
 | Lesson | Topic                              | Status       |
 |--------|------------------------------------|--------------|
-| 01     | Python Basics                      | ✅ Completed |
-| 02     | Lists, Dictionaries & Control Flow | ✅ Completed |
-| 03     | Functions                          | ✅ Completed |
-| 04     | Modules + Advanced Data Structures | ✅ Completed |
-| 05     | File Handling + Error Handling     | ✅ Completed |
-| 06     | Object Oriented Programming        | 🔜 Upcoming |
+| 01     | Python Basics                      | Completed |
+| 02     | Lists, Dictionaries & Control Flow | Completed |
+| 03     | Functions                          | Completed |
+| 04     | Modules + Advanced Data Structures | Completed |
+| 05     | File Handling + Error Handling     | Completed |
+| 06     | Object Oriented Programming        | Completed |
 | 07     | NumPy Fundamentals                 | 🔜 Upcoming |
 | 08     | Pandas Basics                      | 🔜 Upcoming |
 
@@ -35,7 +35,7 @@ This repository contains my complete step-by-step learning journey to become a *
 | 03 | Functions | [View Lesson](./lessons/lesson-03-functions/README.md) |
 | 04 | Modules + Advanced Data Structures | [View Lesson](./lessons/lesson-04-modules/README.md) |
 | 05 | File Handling + Error Handling | [View Lesson](./lessons/lesson-05-file-handling/README.md) |
-
+| 06 | Object Oriented Programming | [View Lesson](./lessons/lesson-06-Classes-and-Objects) |
 ---
 
 ## 🔥 My Commitment
