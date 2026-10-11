@@ -1,4 +1,4 @@
-byy_greet = ["Byy", "byy", "by", "By", "Bye", "bye"]
+byy_greet = ["Quit", "quit", "Byy", "byy", "by", "By", "Bye", "bye"]
 contact = {}
 
 def input_text(text):
