@@ -117,13 +117,13 @@ class MyModel(nn.Module):
 
 ...I realized — it's the same thing I just learned!
 
-| What I learned | How PyTorch uses it|
+| What I learned | How PyTorch uses it |
 |---|---|
-| class Student: | class MyModel(nn.Module): |
-| def __init__(self): | def __init__(self): |
-| self.name = name | self.layer = nn.Linear(...) |
-| def introduce(self): | def forward(self, x): |
-| Student("Alok", 21) | MyModel() |
+| `class Student:` | `class MyModel(nn.Module):` |
+| `def __init__(self):` | `def __init__(self):` |
+| `self.name = name` | `self.layer = nn.Linear(...)` |
+| `def introduce(self):` | `def forward(self, x):` |
+| `Student("Alok", 21)` | `MyModel()` |
 
 OOP is not extra theory. It IS AI code.
 
