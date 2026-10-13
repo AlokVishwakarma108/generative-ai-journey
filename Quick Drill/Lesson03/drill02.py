@@ -4,7 +4,7 @@ Objective: Write multiply(a, b=2) with a default parameter. Call it two ways.
 – multiply(5,4)
 
 Dev: Alok Vishwakarma
-Date: Oct 11, 2026
+Date: Oct 13, 2026
 '''
 
 def multiply(a, b=2):
